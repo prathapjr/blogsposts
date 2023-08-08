@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['myblogapp.azurewebsites.net']
 
+CSRF_TRUSTED_ORIGINS = ['https://myblogapp.azurewebsites.net']
+
 
 # Application definition
 
